@@ -1,0 +1,172 @@
+body{
+	background: url(../img/fono.jpg) center fixed;
+	font-family: Times New Roman;
+	background-size: cover;
+}
+.container, .col-lg-6, .col-lg-12{
+	/*border: 2px solid red;*/
+	margin-bottom: 10px;
+}
+.menu{
+	margin-top: 5px;
+}
+.menu a{
+	font-size: 25px;
+	color: red;
+}
+.menu a:hover{
+	font-size: 25px;
+	color: #4B0082;
+}
+.menux{
+	border-left: 2px solid red; 
+	border-right: 2px solid red; 
+	border-top: 2px solid red; 
+	background-color: rgba(255, 255, 255, 0.8); 
+	box-shadow: 0 0 7px red;
+}
+.catalogue img{
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+.car{
+	height: 370px;
+}
+@media (max-width: 1200px) {
+	.car{
+		height: 320px;
+	}
+}
+@media (max-width: 992px) {
+	.car{
+		height: 460px;
+	}
+}
+.car p{
+	font-size: 18px;
+	margin-top: 7px;
+	color: white;
+}
+.car a{
+	font-size: 18px;
+	margin-top: 7px;
+	color: white;
+}
+.car col-lg-6{
+	margin-top: 30px;
+}
+@-webkit-keyframes pulsate {
+ 50% { color: rgb(139,0,0); text-shadow: 0 -1px rgb(0,0,0), 0 0 5px black, 0 0 8px black; }
+}
+@keyframes pulsate {
+ 50% { color: rgb(139,0,0); text-shadow: 0 -1px rgb(0,0,0), 0 0 5px black, 0 0 8px black; }
+}
+#plate {
+	font-size: 45px;
+	line-height: 80px;
+	color: rgb(255, 140, 0);
+	text-shadow: 0 -1px black;
+	-webkit-animation: pulsate 1.2s linear infinite;
+	animation: pulsate 1.2s linear infinite;
+	text-decoration: none;
+}
+.text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 2%;
+	top: 1.5%;
+	background-color: rgba(255,255,255,0.85);
+	display: none;
+	border:3px solid #FF8C00; 
+	border-radius: 10px;
+	box-shadow: 0 0 20px #FFFFFF;
+}
+.text1 p{
+	margin-top: 0%;
+	margin-bottom: 0%;
+	color: black;
+	font-size: 25px;
+	text-align: left;
+	margin-left: 10%;
+}
+.text1 h3{
+	margin-bottom: 1.5%;
+	margin-top: 1.5%;
+	color: black;
+	font-size: 30px;
+}
+.text1{
+	width:100%;
+	max-width:600px; 
+	position: relative;
+}
+.text1 img{
+	width:100%;
+	max-width:600px;
+	border:3px solid #FF8C00;
+	border-radius: 10px;
+	box-shadow: 0 0 15px #FF8C00;
+}
+@media (max-width: 992px){
+	.text1{
+		max-width: 710px;
+	}
+	.text1 img{
+		max-width: 710px;
+		width: 710px;
+	}
+}
+@media (max-width: 768px) {
+	.text1{
+		max-width: 710px;
+	}
+	.text1 img{
+		max-width: 710px;
+		width: 100%;
+	}
+	.car{
+		height: 30%;
+	}
+}
+@media (max-width: 1200px) {
+	#plate{
+		font-size: 40px;
+	}
+	.text1 h3{
+		font-size: 28px;
+	}
+	.text1 p{
+		font-size: 23px;
+	}
+}
+@media (max-width: 992px) {
+	#plate{
+		font-size: 35px;
+	}
+	.text1 h3{
+		font-size: 30px;
+	}
+	.text1 p{
+		font-size: 25px;
+	}
+}
+@media (max-width: 768px) {
+	#plate{
+		font-size: 30px;
+	}
+	.text1 h3{
+		font-size: 30px;
+	}
+	.text1 p{
+		font-size: 25px;
+	}
+}
+@media (max-width: 576px) {
+	.text1 h3{
+		font-size: 24px;
+	}
+	.text1 p{
+		font-size: 19px;
+	}
+}

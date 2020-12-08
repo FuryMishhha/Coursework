@@ -1,0 +1,143 @@
+body{
+	background: url(../img/fono.jpg) center fixed;
+	font-family: Times New Roman;
+	background-size: cover;
+}
+.container, .col-lg-6, .col-lg-12{
+	/*border: 2px solid red;*/
+	margin-bottom: 10px;
+}
+.menu{
+	margin-top: 5px;
+}
+.menu a{
+	font-size: 25px;
+	color: red;
+}
+.menu a:hover{
+	font-size: 25px;
+	color: #4B0082;
+}
+@-webkit-keyframes pulsate {
+ 50% { color: rgb(139,0,0); text-shadow: 0 -1px rgb(0,0,0), 0 0 5px black, 0 0 8px black; }
+}
+@keyframes pulsate {
+ 50% { color: rgb(139,0,0); text-shadow: 0 -1px rgb(0,0,0), 0 0 5px black, 0 0 8px black; }
+}
+#plate {
+	font-size: 45px;
+	line-height: 80px;
+	color: rgb(255, 140, 0);
+	text-shadow: 0 -1px black;
+	-webkit-animation: pulsate 1.2s linear infinite;
+	animation: pulsate 1.2s linear infinite;
+	text-decoration: none;
+}
+@media (max-width: 1200px) {
+	#plate{
+		font-size: 40px;
+	}
+}
+@media (max-width: 992px) {
+	#plate{
+		font-size: 35px;
+	}
+}
+@media (max-width: 768px) {
+	#plate{
+		font-size: 30px;
+	}
+}
+.gl1{
+	margin-bottom: 0.7%;
+	font-size: 30px;
+	color: white;
+}
+.gl1 p{
+	margin-top: 0.5%;
+}
+.gl2 p{
+	margin-bottom: 0.5%;
+}
+.gl2{
+	margin-top: 0.5%;
+	font-size: 30px;
+	color: white;
+}
+.demonstration{
+	font-size: 25px; 
+	color: white; 
+	text-indent: 4%;
+}
+@media (min-width: 1200px){
+	.extra{
+		display: none;
+	}
+}
+@media (max-width: 1200px){
+	.demonstration img{
+		margin-top: 1.5%;
+		max-width: 450px; 
+	}
+	.demonstation p{
+		font-size: 24px;
+	}
+	.gl{
+		font-size: 29px;
+	}
+	.extra{
+		display: none;
+	}
+}
+@media (max-width: 992px){
+	.demonstration img{
+		margin-top: 3.5%;
+		max-width: 350px; 
+	}
+	.demonstation p{
+		font-size: 23px;
+	}
+	.gl{
+		font-size: 28px;
+	}
+	.extra{
+		display: none;
+	}
+}
+@media (max-width: 768px){
+	.demonstration img{
+		width: 50%;
+		margin-top: 3.5%;
+		max-width: 350px; 
+		display: none;
+	}
+	.demonstration p{
+		font-size: 22px;
+	}
+	.gl{
+		font-size: 27px;
+	}
+	.extra{
+		display: block;
+	}
+}
+.righting {
+	width:100%; 
+	max-width:550px; 
+	border:3px solid #FF8C00; 
+	border-radius: 10px;
+	float: right;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 0%;
+    box-shadow: 0 0 15px #FF8C00;
+}
+.rightings {
+	width:100%; 
+	max-width:100%; 
+	border:3px solid #FF8C00; 
+	border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    box-shadow: 0 0 15px #FF8C00;
+}

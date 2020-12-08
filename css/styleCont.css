@@ -1,0 +1,58 @@
+body{
+	background: url(../img/fono.jpg) center fixed;
+	font-family: Times New Roman;
+	background-size: cover;
+}
+.container, .col-lg-6, .col-lg-12{
+	/*border: 2px solid red;*/
+	margin-bottom: 10px;
+}
+.menu{
+	margin-top: 5px;
+}
+.menu a{
+	font-size: 25px;
+	color: red;
+}
+.menu a:hover{
+	font-size: 25px;
+	color: #4B0082;
+}
+@-webkit-keyframes pulsate {
+ 50% { color: rgb(139,0,0); text-shadow: 0 -1px rgb(0,0,0), 0 0 5px black, 0 0 8px black; }
+}
+@keyframes pulsate {
+ 50% { color: rgb(139,0,0); text-shadow: 0 -1px rgb(0,0,0), 0 0 5px black, 0 0 8px black; }
+}
+#plate {
+	font-size: 45px;
+	line-height: 80px;
+	color: rgb(255, 140, 0);
+	text-shadow: 0 -1px black;
+	-webkit-animation: pulsate 1.2s linear infinite;
+	animation: pulsate 1.2s linear infinite;
+	text-decoration: none;
+}
+@media (max-width: 1200px) {
+	#plate{
+		font-size: 40px;
+	}
+}
+@media (max-width: 992px) {
+	#plate{
+		font-size: 35px;
+	}
+}
+@media (max-width: 768px) {
+	#plate{
+		font-size: 30px;
+	}
+}
+.blink_text {
+	animation:1s blinker linear infinite;
+	}
+	@keyframes blinker {
+	0% { opacity: 1.0; }
+	50% { opacity: 0.5; }
+	100% { opacity: 1.0; }
+}
